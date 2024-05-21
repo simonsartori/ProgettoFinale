@@ -4,7 +4,7 @@
 <head>
   <title>Appunti Didattici</title>
   <link rel="stylesheet" href="Style.css">
-  <link rel="javescript" href="Script.js">
+  
 </head>
 
 <body>
@@ -17,12 +17,11 @@
         <path stroke-linecap="round" stroke-width="4" stroke="black" d="M6 37H43" class="lineBottom line"></path>
       </svg>
     </div>
-
-    <a href="#">Home</a>
+    <a href="Index.html">Home</a>
     <a href="#">Informazioni</a>
     <a href="#">Contatti</a>
     <a href="#">Sign Up</a>
-    <button>Login</button>
+    <button class="login">Login</button>
     <div class="container">
       <input type="text" name="text" class="input" required="" placeholder="Type to search...">
       <div class="icon">
@@ -95,6 +94,25 @@
       <a href="#">Voce 3</a>
       <a href="#">Voce 4</a>
     </div>
+
+    <div id="overlay" onclick="toggleNav()"></div>
+<script src="menù.js"></script>
+    <script>
+        function toggleNav() {
+            var sidebar = document.getElementById("mySidebar");
+            var overlay = document.getElementById("overlay");
+            
+            if (sidebar.style.width === "350px") {
+                sidebar.style.width = "0";
+                overlay.style.display = "none";
+            } else {
+                sidebar.style.width = "350px";
+                overlay.style.display = "block";
+            }
+        }
+
+
+    </script>
 
   </main>
   <footer>

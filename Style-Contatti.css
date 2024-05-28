@@ -173,6 +173,7 @@
     }
 
     main{
+      padding-top: 40px;
       color: rgb(255, 255, 255);
       text-decoration: none;
       display: flex;
@@ -184,8 +185,8 @@
     .cornice{
         background-color: rgba(100, 100, 100, 0);
         border: 9px solid rgb(100, 100, 100);
-        width: 85%;
-        height: 255; 
+        width: 90%;
+        height: 355; 
         box-shadow: inset 4px 4px 4px #00000066, 4px 4px 4px #00000066;
         display: flex;
         align-items: center;
@@ -198,7 +199,23 @@
       display: flex;
       padding: 50px;
       padding-top: 50px;
+      flex-direction: column;
     }
+    
+    .titolo{
+      display:flex;
+    }
+
+    .titolo-contatti{
+      padding-left: 40px;
+    }
+
+    .info{
+      padding-left: 75px;
+      padding-top: 40px;
+      
+    }
+
 
     .profilo{
       width: 150px;
@@ -206,7 +223,9 @@
       border: 5px solid rgb(100, 100, 100);
       border-radius: 150px;
       box-shadow: inset 4px 4px 4px #00000066, 4px 4px 4px #00000066;
+      display:flex;
     }
+    
 
     .divisore{
         border: 4.5px solid rgb(100, 100, 100);

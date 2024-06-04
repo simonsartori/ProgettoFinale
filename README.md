@@ -1,3 +1,3 @@
 # Progetto Finale
 
-è un sito 
+è una specia di quaderno per gli appunti digitale
